@@ -13,7 +13,7 @@ Being an agnostic framework you can use it in your HTML elements and save yourse
 ### Basic element
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Page Title</title>
@@ -26,20 +26,19 @@ Being an agnostic framework you can use it in your HTML elements and save yourse
 </html>
 ```
 
-
 ### Layout element
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <title>Page Title</title>
   </head>
   <body>
-      <section class="m-card m-card-shadow m-card-border-none">
-            <h2 class="m-card-title-sm m-bold">Title Card</h2>
-            <div class="m-card-content">...</div>
-      </section>
+    <section class="m-card m-card-shadow m-card-border-none">
+      <h2 class="m-card-title-sm m-bold">Title Card</h2>
+      <div class="m-card-content">...</div>
+    </section>
   </body>
 </html>
 ```

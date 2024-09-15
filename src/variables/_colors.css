@@ -1,0 +1,99 @@
+:root {
+  /* Primary Color */
+  --morph-color-primary: #2952e1;
+  --morph-color-primary-100: #f3f8ff;
+  --morph-color-primary-200: #d0def5;
+  --morph-color-primary-300: #829cf6;
+  --morph-color-primary-400: #496ef1;
+  --morph-color-primary-500: #11309f;
+
+  /* Neutral Color */
+  --morph-color-neutral: #979797;
+  --morph-color-neutral-100: #f6f6f6;
+  --morph-color-neutral-200: #e8e8e8;
+  --morph-color-neutral-300: #d9d9d9;
+  --morph-color-neutral-400: #c6c6c6;
+  --morph-color-neutral-500: #565656;
+
+  /* error Color */
+  --morph-color-error: #cc453c;
+  --morph-color-error-100: #fff6f5;
+  --morph-color-error-200: #ffeae9;
+  --morph-color-error-300: #ffbcbc;
+  --morph-color-error-400: #e07b75;
+  --morph-color-error-500: #97241d;
+
+  /* Purple Color */
+  --morph-color-purple: #c93ccc;
+  --morph-color-purple-100: #fff5ff;
+  --morph-color-purple-200: #fce9ff;
+  --morph-color-purple-300: #f6bcff;
+  --morph-color-purple-400: #e075d5;
+  --morph-color-purple-500: #992b9b;
+
+  /* Success Color */
+  --morph-color-success: #20bf86;
+  --morph-color-success-100: #f5fff8;
+  --morph-color-success-200: #e9ffe9;
+  --morph-color-success-300: #c1ffbc;
+  --morph-color-success-400: #75e093;
+  --morph-color-success-500: #09714b;
+
+  /* Warn Color */
+  --morph-color-warn: #b89108;
+  --morph-color-warn-100: #fffff5;
+  --morph-color-warn-200: #f3e7bc;
+  --morph-color-warn-300: #e9d180;
+  --morph-color-warn-400: #cdb14f;
+  --morph-color-warn-500: #9a7a08;
+
+  .dark {
+    /* Primary Color */
+    --morph-color-primary: #5672d8;
+    --morph-color-primary-100: #101216;
+    --morph-color-primary-200: #171b28;
+    --morph-color-primary-300: #232d51;
+    --morph-color-primary-400: #3b54af;
+    --morph-color-primary-500: #7590f3;
+
+    /* Neutral Color */
+    --morph-color-neutral: #929292;
+    --morph-color-neutral-100: #151515;
+    --morph-color-neutral-200: #242424;
+    --morph-color-neutral-300: #333;
+    --morph-color-neutral-400: #555;
+    --morph-color-neutral-500: #d6d6d6;
+
+    /* error Color */
+    --morph-color-error: #d15950;
+    --morph-color-error-100: #351b1b;
+    --morph-color-error-200: #491515;
+    --morph-color-error-300: #620d0d;
+    --morph-color-error-400: #9a2828;
+    --morph-color-error-500: #f39089;
+
+    /* Purple Color */
+    --morph-color-purple: #cf50d1;
+    --morph-color-purple-100: #351b32;
+    --morph-color-purple-200: #421549;
+    --morph-color-purple-300: #600d62;
+    --morph-color-purple-400: #98289a;
+    --morph-color-purple-500: #f389e9;
+
+    /* Success Color */
+    --morph-color-success: #50d16c;
+    --morph-color-success-100: #28351b;
+    --morph-color-success-200: #1c4915;
+    --morph-color-success-300: #0d6215;
+    --morph-color-success-400: #289a33;
+    --morph-color-success-500: #98f389;
+
+    /* Warn Color */
+    --morph-color-warn: #d1bc50;
+    --morph-color-warn-100: #352e1b;
+    --morph-color-warn-200: #493e15;
+    --morph-color-warn-300: #62540d;
+    --morph-color-warn-400: #9a8f28;
+    --morph-color-warn-500: #f3dc89;
+  }
+}
