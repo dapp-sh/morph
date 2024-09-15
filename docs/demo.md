@@ -38,7 +38,7 @@ Being an agnostic framework you can use it in your HTML elements and save yourse
   <body>
       <section class="m-card m-card-shadow m-card-border-none">
             <h2 class="m-card-title-sm m-bold">Title Card</h2>
-              <div class="m-card-content">...</div>
+            <div class="m-card-content">...</div>
       </section>
   </body>
 </html>
