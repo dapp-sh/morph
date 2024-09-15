@@ -1,0 +1,39 @@
+name: Release CI
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    permissions:
+      id-token: write
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+
+      - name: Set node  ${{ matrix.node_version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          cache: pnpm
+          registry-url: 'https://registry.npmjs.org'
+
+      - run: npx changelogithub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: corepack enable
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: PNPM build
+        run: pnpm run build
