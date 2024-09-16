@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  release:
+    permissions:
+      id-token: write
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+
+      - name: Set node  ${{ matrix.node_version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: lts/*
+          cache: pnpm
+
+      - run: corepack enable
+
+      - name: Install Dependencies
+        run: pnpm install
+
+      - name: Run lint
+        run: pnpm run lint:css
+
+      - name: Run check format
+        run: pnpm run fmt:check
