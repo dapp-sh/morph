@@ -1,1 +1,4 @@
-{ "extends": ["stylelint-config-standard"], "ignoreFiles": "dist/*" }
+{
+  "extends": ["stylelint-config-standard"],
+  "ignoreFiles": "dist/**/*.css"
+}

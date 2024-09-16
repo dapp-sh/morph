@@ -9,7 +9,7 @@ importers:
   .:
     devDependencies:
       esbuild:
-        specifier: ^0.23.1
+        specifier: 0.23.1
         version: 0.23.1
       prettier:
         specifier: 3.3.3
