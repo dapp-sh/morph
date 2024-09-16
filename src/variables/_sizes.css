@@ -1,0 +1,13 @@
+:root {
+  --morph-container-size: 43.75rem; /* 700px, default */
+  --morph-container-size-sm: 20rem; /* 320px */
+  --morph-container-size-md: 58rem; /* 928px */
+  --morph-container-size-lg: 78.75rem; /* 1260px */
+  --morph-container-size-xl: 87.125rem; /* 1394px */
+
+  /* icons */
+  --morph-icon-size: 1.25rem; /* 20px, default */
+  --morph-icon-size-sm: 1rem; /* 16px */
+  --morph-icon-size-md: 1.5rem; /* 24px */
+  --morph-icon-size-lg: 2rem; /* 32px */
+}

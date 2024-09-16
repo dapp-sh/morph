@@ -2,10 +2,11 @@
   "name": "@dapp/morph",
   "version": "0.1.0",
   "description": "A design system framework agnostic",
+  "packageManager": "pnpm@9.10.0",
   "main": "index.js",
   "scripts": {
     "build": "node build.mjs",
-    "lint:css": "pnpm stylelint \"**/*.css",
+    "lint:css": "stylelint src/**/*.css",
     "clean": "rm -rf node_modules pnpm-lock.yaml",
     "fmt": "prettier --write .",
     "fmt:check": "prettier --check ."
@@ -20,10 +21,9 @@
   "author": "dapp",
   "license": "MIT",
   "devDependencies": {
-    "esbuild": "^0.23.1",
+    "esbuild": "0.23.1",
     "prettier": "3.3.3",
     "stylelint": "16.9.0",
     "stylelint-config-standard": "36.0.1"
-  },
-  "packageManager": "pnpm@9.10.0"
+  }
 }
