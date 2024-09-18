@@ -42,3 +42,14 @@ Being an agnostic framework you can use it in your HTML elements and save yourse
   </body>
 </html>
 ```
+
+### Playground
+
+```html
+<div class="m-container m-container-center" id="app">
+  <div class="m-alert m-alert-primary">
+    hola
+    <button class="m-button m-button-primary">Save changes</button>
+  </div>
+</div>
+```

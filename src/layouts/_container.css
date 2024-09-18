@@ -1,0 +1,8 @@
+.m-container {
+  max-width: var(--morph-container-size-lg);
+  padding: 1rem;
+}
+
+.m-container-center {
+  margin: 0 auto;
+}
