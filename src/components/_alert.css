@@ -1,0 +1,13 @@
+.m-alert {
+  padding: var(--morph-padding-y) var(--morph-padding-x);
+  border-radius: var(--rounded-md);
+  display: flex;
+  align-items: center;
+  gap: var(--morph-padding);
+  max-width: var(--morph-container-size);
+}
+
+.m-alert-primary {
+  background-color: #f3f8ff;
+  border: 1px solid var(--morph-color-primary);
+}

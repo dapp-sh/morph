@@ -1,6 +1,7 @@
 :root {
   /* Primary Color */
   --morph-color-primary: #2952e1;
+  --morph-color-primary-foreground: #fff;
   --morph-color-primary-100: #f3f8ff;
   --morph-color-primary-200: #d0def5;
   --morph-color-primary-300: #829cf6;

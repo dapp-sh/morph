@@ -4,9 +4,15 @@
   justify-content: center;
   align-items: center;
   box-shadow: var(--morph-shadow);
-  outline: none;
+  padding: var(--morph-padding-y) var(--morph-padding-x);
+  border-radius: var(--rounded);
 
   &:hover {
     box-shadow: var(--morph-shadow-none);
   }
+}
+
+.m-button-primary {
+  background-color: var(--morph-color-primary);
+  color: var(--morph-color-primary-foreground);
 }
