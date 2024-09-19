@@ -10,6 +10,7 @@
 
   /* Neutral Color */
   --morph-color-neutral: #979797;
+  --morph-color-neutral-foreground: #fff;
   --morph-color-neutral-100: #f6f6f6;
   --morph-color-neutral-200: #e8e8e8;
   --morph-color-neutral-300: #d9d9d9;
@@ -18,6 +19,7 @@
 
   /* error Color */
   --morph-color-error: #cc453c;
+  --morph-color-error-foreground: #fff;
   --morph-color-error-100: #fff6f5;
   --morph-color-error-200: #ffeae9;
   --morph-color-error-300: #ffbcbc;
@@ -26,6 +28,7 @@
 
   /* Purple Color */
   --morph-color-purple: #c93ccc;
+  --morph-color-purple-foreground: #fff;
   --morph-color-purple-100: #fff5ff;
   --morph-color-purple-200: #fce9ff;
   --morph-color-purple-300: #f6bcff;
@@ -34,6 +37,7 @@
 
   /* Success Color */
   --morph-color-success: #20bf86;
+  --morph-color-success-foreground: #fff;
   --morph-color-success-100: #f5fff8;
   --morph-color-success-200: #e9ffe9;
   --morph-color-success-300: #c1ffbc;
@@ -42,6 +46,7 @@
 
   /* Warn Color */
   --morph-color-warn: #b89108;
+  --morph-color-warn-foreground: #fff;
   --morph-color-warn-100: #fffff5;
   --morph-color-warn-200: #f3e7bc;
   --morph-color-warn-300: #e9d180;
