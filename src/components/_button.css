@@ -10,9 +10,19 @@
   &:hover {
     box-shadow: var(--morph-shadow-none);
   }
+
+  &:active {
+    transform: scale(0.95);
+    transition: transform 0.1s ease-in-out;
+  }
 }
 
 .m-button-primary {
   background-color: var(--morph-color-primary);
   color: var(--morph-color-primary-foreground);
+}
+
+.m-button-success {
+  background-color: var(--morph-color-success);
+  color: var(--morph-color-success-foreground);
 }

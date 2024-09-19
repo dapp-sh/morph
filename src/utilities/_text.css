@@ -1,0 +1,15 @@
+.m-text-primary {
+  color: var(--morph-color-primary);
+}
+
+.m-text-success {
+  color: var(--morph-color-success);
+}
+
+.m-text-error {
+  color: var(--morph-color-error);
+}
+
+.m-text-warning {
+  color: var(--morph-color-warning);
+}
