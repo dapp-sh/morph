@@ -1,3 +1,7 @@
+:root {
+  --morp-transition-background: background-color 0.1s ease-in-out;
+}
+
 .m-button {
   position: relative;
   display: flex;
@@ -50,4 +54,74 @@
 .m-button-purple {
   background-color: var(--morph-color-purple);
   color: var(--morph-color-purple-foreground);
+}
+
+.m-button-outline-primary {
+  background-color: none;
+  border: 1px solid var(--morph-color-primary);
+
+  &:hover {
+    background-color: var(--morph-color-primary-100);
+    transition: var(--morp-transition-background);
+  }
+}
+
+.m-button-outline-success {
+  background-color: none;
+  border: 1px solid var(--morph-color-success);
+
+  &:hover {
+    background-color: var(--morph-color-success-100);
+    transition: var(--morp-transition-background);
+  }
+}
+
+.m-button-outline-error {
+  background-color: none;
+  border: 1px solid var(--morph-color-error);
+
+  &:hover {
+    background-color: var(--morph-color-error-100);
+    transition: var(--morp-transition-background);
+  }
+}
+
+.m-button-outline-warn {
+  background-color: none;
+  border: 1px solid var(--morph-color-warn);
+
+  &:hover {
+    background-color: var(--morph-color-warn-100);
+    transition: var(--morp-transition-background);
+  }
+}
+
+.m-button-outline-neutral {
+  background-color: none;
+  border: 1px solid var(--morph-color-neutral);
+
+  &:hover {
+    background-color: var(--morph-color-neutral-100);
+    transition: var(--morp-transition-background);
+  }
+}
+
+.m-button-outline-purple {
+  background-color: none;
+  border: 1px solid var(--morph-color-purple);
+
+  &:hover {
+    background-color: var(--morph-color-purple-100);
+    transition: var(--morp-transition-background);
+  }
+}
+
+.m-button-ghost {
+  background-color: none;
+  box-shadow: var(--morph-shadow-none);
+
+  &:hover {
+    background-color: var(--morph-color-neutral-100);
+    transition: var(--morp-transition-background);
+  }
 }
