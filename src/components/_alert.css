@@ -33,22 +33,12 @@
   border: 1px solid var(--morph-color-warn);
 }
 
-.m-alert-center {
-  justify-content: center;
+.m-alert-neutral {
+  background-color: var(--morph-color-neutral-100);
+  border: 1px solid var(--morph-color-neutral);
 }
 
-.m-alert-between {
-  justify-content: space-between;
-}
-
-.m-alert-around {
-  justify-content: space-around;
-}
-
-.m-alert-end {
-  justify-content: flex-end;
-}
-
-.m-alert-start {
-  justify-content: flex-start;
+.m-alert-purple {
+  background-color: var(--morph-color-purple-100);
+  border: 1px solid var(--morph-color-purple);
 }

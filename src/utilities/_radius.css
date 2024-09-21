@@ -1,0 +1,19 @@
+.m-radius {
+  border-radius: var(--morph-radius);
+}
+
+.m-radius-sm {
+  border-radius: var(--morph-radius-sm);
+}
+
+.m-radius-md {
+  border-radius: var(--morph-radius-md);
+}
+
+.m-radius-lg {
+  border-radius: var(--morph-radius-lg);
+}
+
+.m-radius-xl {
+  border-radius: var(--morph-radius-xl);
+}

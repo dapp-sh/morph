@@ -5,7 +5,7 @@
   align-items: center;
   box-shadow: var(--morph-shadow);
   padding: var(--morph-padding-y) var(--morph-padding-x);
-  border-radius: var(--rounded);
+  border-radius: var(--morph-radius);
 
   &:hover {
     box-shadow: var(--morph-shadow-none);
@@ -14,6 +14,11 @@
   &:active {
     transform: scale(0.95);
     transition: transform 0.1s ease-in-out;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
   }
 }
 
@@ -25,4 +30,24 @@
 .m-button-success {
   background-color: var(--morph-color-success);
   color: var(--morph-color-success-foreground);
+}
+
+.m-button-error {
+  background-color: var(--morph-color-error);
+  color: var(--morph-color-error-foreground);
+}
+
+.m-button-warn {
+  background-color: var(--morph-color-warn);
+  color: var(--morph-color-warn-foreground);
+}
+
+.m-button-neutral {
+  background-color: var(--morph-color-neutral);
+  color: var(--morph-color-neutral-foreground);
+}
+
+.m-button-purple {
+  background-color: var(--morph-color-purple);
+  color: var(--morph-color-purple-foreground);
 }

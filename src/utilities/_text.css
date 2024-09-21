@@ -13,3 +13,11 @@
 .m-text-warning {
   color: var(--morph-color-warning);
 }
+
+.m-text-neutral {
+  color: var(--morph-color-neutral);
+}
+
+.m-text-purple {
+  color: var(--morph-color-purple);
+}

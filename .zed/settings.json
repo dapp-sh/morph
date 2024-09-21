@@ -1,0 +1,6 @@
+{
+  "format_on_save": "prettier",
+  "prettier": {
+    "allowed": true
+  }
+}
