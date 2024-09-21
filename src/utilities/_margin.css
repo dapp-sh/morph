@@ -1,0 +1,17 @@
+:root {
+  --morph-margin: 1rem;
+  --morph-margin-y: 0.5rem;
+  --morph-margin-x: 0.75rem;
+}
+
+.m-margin {
+  margin: var(--morph-margin);
+}
+
+.m-margin-y {
+  margin: var(--morph-margin-y) 0;
+}
+
+.m-margin-x {
+  margin: 0 var(--morph-margin-x);
+}

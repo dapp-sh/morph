@@ -3,3 +3,15 @@
   --morph-padding-y: 0.5rem;
   --morph-padding-x: 0.75rem;
 }
+
+.m-padding {
+  padding: var(--morph-padding);
+}
+
+.m-padding-y {
+  padding: var(--morph-padding-y) 0;
+}
+
+.m-padding-x {
+  padding: 0 var(--morph-padding-x);
+}
