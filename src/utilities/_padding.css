@@ -1,11 +1,16 @@
 :root {
   --morph-padding: 1rem;
+  --morph-padding-sm: 0.4rem;
   --morph-padding-y: 0.5rem;
   --morph-padding-x: 0.75rem;
 }
 
 .m-padding {
   padding: var(--morph-padding);
+}
+
+.m-padding-sm {
+  padding: var(--morph-padding-sm);
 }
 
 .m-padding-y {

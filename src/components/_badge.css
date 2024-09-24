@@ -1,0 +1,38 @@
+.m-badge {
+  display: inline-flex;
+  align-items: center;
+  max-width: max-content;
+  border-radius: var(--morph-radius);
+  padding: var(--morph-padding-sm);
+  font-weight: bold;
+}
+
+.m-badge-primary {
+  background-color: var(--morph-color-primary-200);
+  color: var(--morph-color-primary-500);
+}
+
+.m-badge-success {
+  background-color: var(--morph-color-success-200);
+  color: var(--morph-color-success-500);
+}
+
+.m-badge-warn {
+  background-color: var(--morph-color-warn-200);
+  color: var(--morph-color-warn-500);
+}
+
+.m-badge-error {
+  background-color: var(--morph-color-error-200);
+  color: var(--morph-color-error-500);
+}
+
+.m-badge-neutral {
+  background-color: var(--morph-color-neutral-200);
+  color: var(--morph-color-neutral-500);
+}
+
+.m-badge-purple {
+  background-color: var(--morph-color-purple-200);
+  color: var(--morph-color-purple-500);
+}
