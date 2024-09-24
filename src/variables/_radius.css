@@ -14,6 +14,9 @@
   /* Rounded extra large */
   --morph-radius-xl: 1.5rem; /* 24px */
 
+  /* Rounded full */
+  --morph-radius-full: 100%;
+
   /* Rounded  none */
   --morph-radius-none: 0px;
 }

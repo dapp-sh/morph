@@ -17,3 +17,7 @@
 .m-radius-xl {
   border-radius: var(--morph-radius-xl);
 }
+
+.m-radius-full {
+  border-radius: var(--morph-radius-full);
+}
