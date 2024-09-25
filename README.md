@@ -1,3 +1,3 @@
 # morph
 
-An agnostic design system
+An agnostic design system written with CSS.
