@@ -1,0 +1,17 @@
+.m-card {
+  box-shadow: var(--morph-shadow-md);
+  border-radius: var(--morph-radius-md);
+  width: max-content;
+}
+
+.m-card-header {
+  display: flex;
+  align-items: center;
+  gap: var(--morph-gap);
+}
+
+.m-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--morph-gap-sm);
+}

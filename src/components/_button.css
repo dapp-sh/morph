@@ -1,5 +1,5 @@
 :root {
-  --morp-transition-background: background-color 0.1s ease-in-out;
+  --morph-transition-background: background-color 0.1s ease-in-out;
 }
 
 .m-button {
@@ -62,7 +62,7 @@
 
   &:hover {
     background-color: var(--morph-color-primary-100);
-    transition: var(--morp-transition-background);
+    transition: var(--morph-transition-background);
   }
 }
 
@@ -72,7 +72,7 @@
 
   &:hover {
     background-color: var(--morph-color-success-100);
-    transition: var(--morp-transition-background);
+    transition: var(--morph-transition-background);
   }
 }
 
@@ -82,7 +82,7 @@
 
   &:hover {
     background-color: var(--morph-color-error-100);
-    transition: var(--morp-transition-background);
+    transition: var(--morph-transition-background);
   }
 }
 
@@ -92,7 +92,7 @@
 
   &:hover {
     background-color: var(--morph-color-warn-100);
-    transition: var(--morp-transition-background);
+    transition: var(--morph-transition-background);
   }
 }
 
@@ -102,7 +102,7 @@
 
   &:hover {
     background-color: var(--morph-color-neutral-100);
-    transition: var(--morp-transition-background);
+    transition: var(--morph-transition-background);
   }
 }
 
@@ -112,7 +112,7 @@
 
   &:hover {
     background-color: var(--morph-color-purple-100);
-    transition: var(--morp-transition-background);
+    transition: var(--morph-transition-background);
   }
 }
 
@@ -122,6 +122,6 @@
 
   &:hover {
     background-color: var(--morph-color-neutral-100);
-    transition: var(--morp-transition-background);
+    transition: var(--morph-transition-background);
   }
 }
