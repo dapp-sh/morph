@@ -1,3 +1,5 @@
 :root {
-  --morhp-transition: 0.2s;
+  --morph-transition: 0.2s;
+  --morph-gap: 1rem;
+  --morph-gap-sm: 0.5rem;
 }

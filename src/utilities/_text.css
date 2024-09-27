@@ -21,3 +21,11 @@
 .m-text-purple {
   color: var(--morph-color-purple);
 }
+
+.m-title {
+  font-weight: bold;
+}
+
+.m-title-base {
+  font-size: 1.5rem;
+}
